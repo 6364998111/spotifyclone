@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu&display=swap');
+
+body{
+  background-color: rgb(250, 247, 243);
+  color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  cursor: pointer;
+}
+nav{
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  height: 60px;
+  background-color: rgb(252, 252, 252);
+  color: rgb(14, 13, 13);
+  gap: 30px;
+  
+}
+.main{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+.brand img{
+   width:55px;
+   padding: 0 4px;
+  }
+.bottom-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 10px;
+  background-color: royalblue;
+  position:fixed;
+  width:100%;
+  bottom: 0;
+}
+button img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
